@@ -27,6 +27,19 @@
 | Day | Challenge | Topics Covered |
 |-----|-----------|----------------|
 | Day 1 | On-Site Engineering Markets Report | GROUP BY, HAVING, LIKE, COUNT DISTINCT, Manual AVG |
+| Day 2 | High-Paying Remote Partner Analysis ("Gold Standard") | LEFT JOIN, Table Aliasing, Clause Order of Execution, AVG() |
+
+---
+
+## 📸 Project Showcase
+
+### Day 1: Engineering Markets
+*Filtering and grouping on-site roles to find market trends.*
+![Day 1 Result](Day1_result_screenshots.png)
+
+### Day 2: The "Remote Elite" Employers
+*Connecting Fact and Dimension tables to identify the highest-paying companies for remote Data Analysts.*
+![Day 2 Result](Day2_result_screenshots.png)
 
 ---
 
@@ -40,3 +53,6 @@
 - COUNT, COUNT DISTINCT
 - Manual AVG calculation (SUM / COUNT)
 - Modulo operator (% 2 = 1)
+- **LEFT JOIN (Connecting Fact and Dimension tables)**
+- **Table Aliasing (e.g., `job_postings_fact AS jobs`)**
+- **Aggregate Functions (AVG, COUNT with Joins)**
