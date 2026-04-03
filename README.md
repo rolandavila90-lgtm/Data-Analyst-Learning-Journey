@@ -23,10 +23,10 @@
 
 ## 🚀 Project Showcase
 
-### Day 1: On-Site Engineering Markets
+### Week 1: On-Site Engineering Markets
 *Goal: Identify high-volume and high-paying markets for on-site engineering roles.*
 
-![Day 1 Result](Week_01/01_result.png)
+![Week 1 Result](Week_01/01_result.png)
 
 **💡 Data Story & Insights:**
 - **Volume vs. Niche:** The United States dominates in sheer volume, offering hundreds of on-site roles averaging over $150,000.
@@ -34,10 +34,10 @@
 
 ---
 
-### Day 2: The "Remote Elite" Employers
+### Week 2: The "Remote Elite" Employers
 *Goal: Connecting Fact and Dimension tables to identify the highest-paying companies for remote Data Analysts.*
 
-![Day 2 Result](Week_02/02_result.png)
+![Week 2 Result](Week_02/02_result.png)
 
 **💡 Data Story & Insights:**
 - **Market Competitiveness:** While traditional tech giants (**FAANG**) like Meta are present, the data shows that healthcare (**Uclahealthcareers**) and telecommunications (**AT&T**) offer highly competitive salaries above $160k for remote talent.
