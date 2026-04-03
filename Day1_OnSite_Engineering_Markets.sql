@@ -35,4 +35,17 @@ HAVING
    COUNT(company_id) > 5 AND 	
   SUM(salary_year_avg) / COUNT(salary_year_avg) > 100000 	
  ORDER BY 	
- 	avg_yearly_salary DESC;
+ 	avg_yearly_salary DESC; 	
+
+/* 💡 DATA INSIGHTS
+- VOLUME VS. NICHE: The United States dominates the market in sheer volume, offering 
+  hundreds of highly-paid, on-site Senior Data Engineer and Machine Learning roles 
+  averaging over $150,000 across hundreds of companies.
+
+- MARKET OUTLIERS: The highest average salary appeared in the Bahamas ($219k+), 
+  but this was driven by a single company posting only 8 roles, indicating a 
+  highly localized and specific opportunity.
+
+- STABILITY BENCHMARK: While niche international markets offer extreme compensation, 
+  the US remains the most stable and expansive market for on-site engineering talent, 
+  providing the highest frequency of six-figure opportunities.*/
