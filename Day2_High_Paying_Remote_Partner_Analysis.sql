@@ -37,4 +37,19 @@ GROUP BY
     companies.name
 ORDER BY      
     avg_salary DESC
-LIMIT 10;  	
+LIMIT 10;  	    
+
+/*💡 DATA INSIGHTS
+- MARKET COMPETITIVENESS: While traditional tech giants (FAANG) like Meta are present, 
+
+  the data shows that healthcare (CareFirst) and telecommunications (AT&T) are 
+
+  offering highly competitive salaries above $160k for remote talent.
+
+- EXCLUSIVITY: Most top-paying roles have a job count of 1, suggesting these are 
+
+  highly specialized "unicorn" positions rather than mass-hiring phases.
+
+- SALARY BENCHMARK: For a remote Data Analyst, the current "Gold Standard" 
+
+  ceiling in this dataset sits at approximately $172,500.*/
