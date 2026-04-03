@@ -42,7 +42,7 @@ LIMIT 10;
 /*💡 DATA INSIGHTS
 - MARKET COMPETITIVENESS: While traditional tech giants (FAANG) like Meta are present, 
 
-  the data shows that healthcare (CareFirst) and telecommunications (AT&T) are 
+  the data shows that healthcare (Uclahealthcareers) and telecommunications (AT&T) are 
 
   offering highly competitive salaries above $160k for remote talent.
 
