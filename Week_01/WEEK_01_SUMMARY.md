@@ -5,27 +5,26 @@
 - COUNT, COUNT DISTINCT, SUM
 - Manual AVG (SUM/COUNT) calculation
 - LIKE pattern matching
-- ORDER BY with DESC sorting
+- ORDER BY DESC
 
 ---
 
 ## 🎯 Challenge 1: On-Site Engineering Markets
 
-**What was the business question?**
-> Which engineering roles pay the most when they're on-site?
+**Business Question:** Which engineering roles pay the most on-site?
 
-**My approach:**
-1. Filter for rows with "Engineer" in the job title using LIKE '%Engineer%'
-2. Keep only on-site jobs (job_work_from_home = FALSE)
-3. Remove jobs with missing salary data (salary_year_avg IS NOT NULL)
-4. Group by Country and Job Category
-5. Show only groups with 5+ jobs AND avg salary > $100k (HAVING clause)
-6. Sort by highest salary first (ORDER BY avg_yearly_salary DESC)
+**What I did:**
+1. Filtered for "Engineer" in job title
+2. Kept only on-site jobs (not remote)
+3. Removed jobs with missing salary
+4. Grouped by Country and Job Category
+5. Showed only groups with 5+ jobs AND avg > $100k
+6. Sorted by highest salary first
 
-**What I discovered:**
-- The USA has the most high-paying on-site engineering jobs (hundreds of postings)
-- The Bahamas shows the highest average salary ($219k+) BUT only 8 jobs from 1 company
-- **Key Insight:** High salary ≠ Good market. Volume matters!
+**What I found:**
+- USA has the most high-paying engineering jobs
+- Bahamas shows highest salary ($219k) but only 8 jobs from 1 company
+- **Learning:** High salary ≠ good market (need volume too!)
 
 **Files:**
 - Query: `01_OnSite_Engineering_Markets.sql`
@@ -33,7 +32,21 @@
 
 ---
 
-## 💡 Mistakes I Made & How I Fixed Them
+## 💡 Mistakes I Made
+
+### Mistake 1: WHERE vs HAVING
+❌ Wrong: `WHERE SUM(salary) > 100000`
+✅ Right: `HAVING SUM(salary) > 100000`
+**Why:** Aggregates go in HAVING, not WHERE
+
+### Mistake 2: COUNT vs COUNT DISTINCT
+❌ Wrong: `COUNT(company_id)` (counts rows)
+✅ Right: `COUNT(DISTINCT company_id)` (counts unique companies)
+
+---
+
+## ⏱️ Time Spent
+- ~4-5 hours on this challenge
 
 ### Mistake 1: Using WHERE Instead of HAVING
 ❌ **WRONG:**
