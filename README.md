@@ -31,15 +31,23 @@
 
 ---
 
-## 📸 Project Showcase
+## 📸 Project Showcase & Insights
 
 ### Day 1: Engineering Markets
 *Filtering and grouping on-site roles to find market trends.*
 ![Day 1 Result](Day1_result_screenshots.png)
 
+**💡 The Data Story (Insights):**
+* **High Volume vs. Niche Markets:** The United States dominates the market in sheer volume, offering hundreds of highly-paid, on-site Senior Data Engineer and Machine Learning roles averaging over $150,000 across hundreds of companies. 
+* **The Outliers:** Interestingly, the highest average salary appeared in the Bahamas ($219k+), but this was driven by a single company posting 8 roles. This indicates that while niche international markets can offer extreme compensation, the US remains the most stable and expansive market for on-site engineering talent.
+
 ### Day 2: The "Remote Elite" Employers
 *Connecting Fact and Dimension tables to identify the highest-paying companies for remote Data Analysts.*
 ![Day 2 Result](Day2_result_screenshots.png)
+
+**💡 The Data Story (Insights):**
+* **Startups Competing with Giants:** The highest-paying remote Data Analyst roles aren't exclusively found at traditional FAANG companies. While industry giants like Meta ($336k) and AT&T ($255k) offer massive compensation, specialized tech platforms and financial services (like Mantys and SmartAsset) are fiercely competing for elite remote talent.
+* **High Pay, Low Volume:** Almost all of the top 10 highest-paying companies only had a single job posting available, indicating that these ultra-premium remote positions ($170k - $650k) are highly exclusive and rarely open.
 
 ---
 
