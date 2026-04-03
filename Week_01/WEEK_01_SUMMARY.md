@@ -1,36 +1,19 @@
-# Week 1: SQL Fundamentals & Grouping
+## 📊 Week 1: On-Site Engineering Markets
 
-## 📚 Concepts I Learned
-- GROUP BY & HAVING clauses
-- COUNT, COUNT DISTINCT, SUM
-- Manual AVG (SUM/COUNT) calculation
-- LIKE pattern matching
-- ORDER BY DESC
-
----
-
-## 🎯 Challenge 1: On-Site Engineering Markets
-
-**Business Question:** Which engineering roles pay the most on-site?
-
-**What I did:**
-1. Filtered for "Engineer" in job title
-2. Kept only on-site jobs (not remote)
-3. Removed jobs with missing salary
-4. Grouped by Country and Job Category
-5. Showed only groups with 5+ jobs AND avg > $100k
-6. Sorted by highest salary first
+**Question:** Which on-site engineering roles pay the most?
 
 **What I found:**
-- USA has the most high-paying engineering jobs
-- Bahamas shows highest salary ($219k) but only 8 jobs from 1 company
-- **Learning:** High salary ≠ good market (need volume too!)
+- 🇺🇸 USA has the most high-paying engineering jobs
+- 🏝️ Bahamas shows highest salary ($219k) but only 8 jobs from 1 company
+- 💡 **Lesson:** High salary ≠ good market. Need volume too!
 
-**Files:**
-- Query: `01_OnSite_Engineering_Markets.sql`
-- Results: `01_result.png`
+**SQL I used:**
+- GROUP BY & HAVING
+- COUNT DISTINCT (count unique companies)
+- Manual AVG (SUM/COUNT)
 
----
+👉 See full details: `Week_01/WEEK_01_SUMMARY.md`
+
 
 ## 💡 Mistakes I Made
 
