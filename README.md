@@ -1,11 +1,3 @@
-# 📊 Data-Analyst-Learning-Journey
-
-> A BSOA student documenting the path to becoming a Data Analyst — one query at a time.
-
----
-
-# 📊 Data-Analyst-Learning-Journey
-
 > A BSOA student learning SQL week-by-week. Documenting the path to becoming a Data Analyst — one query at a time.
 
 ---
